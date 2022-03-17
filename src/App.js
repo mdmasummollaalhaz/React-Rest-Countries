@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import { useEffect, useState } from 'react';
-import Countries from './components/Country/Countries';
+// import { useEffect, useState } from 'react';
+import Countries from './components/Countries/Countries';
 import Person from './components/Person/Person';
 import Header from './components/Header/Header';
 
@@ -11,7 +10,7 @@ function App() {
       <Header></Header>
       {/* <LoadCountries></LoadCountries> */}
       <Countries></Countries>
-      <Person></Person>
+      {/* <Person></Person> */}
     </div>
   );
 }
@@ -28,7 +27,7 @@ function App() {
 
   return(
     <div>
-      <h1>Visiting everty countries of the world!</h1>
+      <h1>Visiting every countries of the world!</h1>
       <h3>Available Countries: {countries.length}</h3>
       {
         // countries.map(country=> console.log(country))
