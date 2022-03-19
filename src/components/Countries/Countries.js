@@ -13,8 +13,8 @@ const Countries = () => {
     }, [])
 
     return (
-        <div>
-            <h2>Countries: {countries.length}</h2>
+        <div className='countries'>
+            <h2><span className='textBold'>Countries</span>: {countries.length}</h2>
             <div className='countries-container'>
                 {
                     // countries.map(country => console.log(country))
